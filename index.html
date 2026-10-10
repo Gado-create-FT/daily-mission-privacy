@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Política de Privacidad | Daily Mission</title>
+    <meta
+      name="description"
+      content="Política de privacidad de Daily Mission: información recopilada, uso de datos, seguridad, derechos del usuario y contacto."
+    />
+    <style>
+      :root {
+        --bg: #f3f1f4;
+        --surface: #ffffff;
+        --surface-alt: #f1e8ec;
+        --primary: #5a1f2d;
+        --primary-dark: #2f0d17;
+        --secondary: #1f2d3d;
+        --accent: #213b5a;
+        --text: #1b1b1d;
+        --muted: #5a4a52;
+        --border: #dcc7cf;
+        --shadow: 0 18px 45px rgba(30, 18, 22, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(180deg, #e9dfe3 0%, var(--bg) 22%, #f8f5f7 100%);
+        color: var(--text);
+        line-height: 1.7;
+      }
+
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 32px 20px 80px;
+      }
+
+      .page {
+        background: rgba(255, 255, 255, 0.94);
+        border: 1px solid var(--border);
+        border-radius: 22px;
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, var(--primary) 0%, #7a2d42 32%, var(--accent) 72%, #111827 100%);
+        color: #fff;
+        padding: 52px 44px 32px;
+      }
+
+      .eyebrow {
+        display: inline-block;
+        padding: 7px 12px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.16);
+        font-size: 0.76rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-weight: 700;
+        margin-bottom: 16px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2.1rem, 4vw, 3.1rem);
+        line-height: 1.15;
+      }
+
+      .updated {
+        margin: 0;
+        font-size: 0.96rem;
+        opacity: 0.9;
+      }
+
+      .content {
+        padding: 28px 44px 44px;
+      }
+
+      .section {
+        padding-top: 8px;
+        margin-bottom: 26px;
+      }
+
+      h2 {
+        font-size: clamp(1.3rem, 2vw, 1.8rem);
+        color: var(--primary-dark);
+        margin: 0 0 14px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--border);
+      }
+
+      p,
+      li {
+        font-size: 1.02rem;
+        color: var(--text);
+      }
+
+      ul,
+      ol {
+        margin: 10px 0 0 20px;
+        padding-left: 12px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      strong {
+        color: var(--primary-dark);
+      }
+
+      .contact-box {
+        background: linear-gradient(135deg, #f5edf1 0%, #edf2f7 100%);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 20px 22px;
+        margin-top: 16px;
+      }
+
+      .contact-box p {
+        margin: 0;
+      }
+
+      .contact-box a {
+        color: var(--secondary);
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      .contact-box a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 700px) {
+        .hero,
+        .content {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+        .container {
+          padding-top: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <main class="page">
+        <header class="hero">
+          <div class="eyebrow">Daily Mission</div>
+          <h1>Política de Privacidad</h1>
+          <p class="updated"><strong>Última actualización:</strong> 10 de octubre de 2026</p>
+        </header>
+
+        <div class="content">
+          <section class="section" aria-labelledby="introduccion">
+            <h2 id="introduccion">1. Introducción</h2>
+            <p>
+              <strong>Daily Mission</strong> es una aplicación móvil destinada a fomentar hábitos saludables,
+              la actividad física y el desarrollo personal mediante un sistema de misiones, niveles,
+              experiencia (XP) y rangos.
+            </p>
+            <p>
+              La privacidad de los usuarios es importante para Daily Mission. Esta política explica qué
+              información se recopila, cómo se utiliza y cómo se gestiona.
+            </p>
+          </section>
+
+          <section class="section" aria-labelledby="informacion-recogida">
+            <h2 id="informacion-recogida">2. Información que recopilamos</h2>
+            <p>Daily Mission puede recopilar y almacenar:</p>
+            <ul>
+              <li>Correo electrónico utilizado para registrar una cuenta.</li>
+              <li>Identificador único de usuario generado por Firebase Authentication.</li>
+              <li>Información del perfil del usuario.</li>
+              <li>Misiones y metas personales.</li>
+              <li>Progreso de las actividades, niveles, XP y rangos.</li>
+              <li>Rachas de actividad y datos relacionados con recordatorios.</li>
+            </ul>
+            <p>
+              Las contraseñas son gestionadas por Firebase Authentication y no se almacenan como texto
+              visible en la base de datos de Daily Mission.
+            </p>
+          </section>
+
+          <section class="section" aria-labelledby="uso-informacion">
+            <h2 id="uso-informacion">3. Uso de la información</h2>
+            <p>La información recopilada se utiliza para:</p>
+            <ul>
+              <li>Permitir el registro y el inicio de sesión.</li>
+              <li>Identificar la cuenta del usuario.</li>
+              <li>Guardar y recuperar el progreso personal.</li>
+              <li>Administrar misiones, recompensas, niveles y rangos.</li>
+              <li>Proporcionar las funciones de recordatorios y seguimiento de hábitos.</li>
+              <li>Mantener el funcionamiento y la seguridad de la aplicación.</li>
+            </ul>
+          </section>
+
+          <section class="section" aria-labelledby="privacidad-misiones">
+            <h2 id="privacidad-misiones">4. Privacidad de las misiones</h2>
+            <p>
+              Las metas y misiones personales son privadas y no se muestran a otros usuarios.
+            </p>
+            <p>
+              Daily Mission no incluye funciones de mensajería ni publicación pública de las misiones
+              personales.
+            </p>
+          </section>
+
+          <section class="section" aria-labelledby="servicios-terceros">
+            <h2 id="servicios-terceros">5. Servicios de terceros</h2>
+            <p>
+              Daily Mission utiliza servicios de Firebase, proporcionados por Google, para gestionar la
+              autenticación y el almacenamiento de información.
+            </p>
+            <p>
+              El tratamiento de información por parte de estos servicios también está sujeto a las
+              políticas correspondientes de Google y Firebase.
+            </p>
+            <p>Daily Mission no vende información personal de sus usuarios.</p>
+          </section>
+
+          <section class="section" aria-labelledby="seguridad-conservacion">
+            <h2 id="seguridad-conservacion">6. Seguridad y conservación de datos</h2>
+            <p>
+              Daily Mission utiliza los servicios de autenticación y almacenamiento de Firebase.
+            </p>
+            <p>
+              Se aplican medidas técnicas destinadas a proteger la información frente a accesos no
+              autorizados.
+            </p>
+            <p>
+              Los datos se conservan mientras sean necesarios para prestar el servicio o cumplir
+              obligaciones aplicables.
+            </p>
+          </section>
+
+          <section class="section" aria-labelledby="derechos-usuario">
+            <h2 id="derechos-usuario">7. Derechos del usuario y eliminación de datos</h2>
+            <p>
+              Los usuarios pueden solicitar información sobre sus datos personales, su corrección o
+              eliminación.
+            </p>
+            <p>
+              También pueden solicitar la eliminación de su cuenta y de los datos personales asociados a
+              ella comunicándose con el responsable de Daily Mission.
+            </p>
+          </section>
+
+          <section class="section" aria-labelledby="privacidad-menores">
+            <h2 id="privacidad-menores">8. Privacidad de menores</h2>
+            <p>
+              Daily Mission está dirigida inicialmente a usuarios de 16 años en adelante.
+            </p>
+            <p>
+              El tratamiento de información de menores estará sujeto a las disposiciones legales
+              aplicables.
+            </p>
+          </section>
+
+          <section class="section" aria-labelledby="cambios-politica">
+            <h2 id="cambios-politica">9. Cambios en esta política</h2>
+            <p>
+              Esta política de privacidad podrá actualizarse cuando se incorporen nuevas funciones o se
+              modifique el tratamiento de información.
+            </p>
+            <p>Las actualizaciones se publicarán en esta misma página.</p>
+          </section>
+
+          <section class="section" aria-labelledby="contacto">
+            <h2 id="contacto">10. Contacto</h2>
+            <p>
+              Para consultas sobre privacidad y solicitudes relacionadas con datos personales, puedes
+              comunicarte con el responsable de Daily Mission.
+            </p>
+            <div class="contact-box">
+              <p>
+                <strong>Correo electrónico de contacto:</strong>
+                <a href="mailto:josegadielft@gmail.com">josegadielft@gmail.com</a>
+              </p>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
